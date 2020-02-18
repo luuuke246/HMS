@@ -51,7 +51,7 @@ public class MainMenu extends javax.swing.JFrame {
         lblHome.setText("Home");
 
         btnPatientDetails.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        btnPatientDetails.setText("teeeest");
+        btnPatientDetails.setText("Patients");
         btnPatientDetails.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPatientDetailsActionPerformed(evt);
@@ -59,7 +59,7 @@ public class MainMenu extends javax.swing.JFrame {
         });
 
         btnReports.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        btnReports.setText("Reports");
+        btnReports.setText("Doctors");
         btnReports.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnReportsActionPerformed(evt);
